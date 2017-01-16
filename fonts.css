@@ -1,1 +1,15 @@
 /* Fonts */
+@font-face {
+  font-family: "Gym";
+  src: url("./fonts/glyph/gym.ttf");
+}
+
+@font-face {
+  font-family: "Garet Thin";
+  src: url("./fonts/garet/Garet-Book.woff2");
+}
+
+@font-face {
+  font-family: "Garet Heavy";
+  src: url("./fonts/garet/Garet-Heavy.woff2");
+}
