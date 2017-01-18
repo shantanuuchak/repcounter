@@ -4,11 +4,13 @@
   src: url("./fonts/glyph/gym.ttf");
 }
 
+/* Thin */
 @font-face {
-  font-family: "Garet Thin";
+  font-family: "Garet Book";
   src: url("./fonts/garet/Garet-Book.woff2");
 }
 
+/* Bold */
 @font-face {
   font-family: "Garet Heavy";
   src: url("./fonts/garet/Garet-Heavy.woff2");
