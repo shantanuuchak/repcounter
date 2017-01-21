@@ -1,4 +1,12 @@
 /* Main Styling */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --pink: #ff3278;
+  --yellow: #ffdc18;
+  --muscle: #ff5942;
+}
+
 * {
   margin: 0;
   padding: 0;
