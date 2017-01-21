@@ -16,7 +16,8 @@
 body {
   font-family: "Garet Book", sans-serif;
   text-align: center;
-  color: #333;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 header {
@@ -26,7 +27,7 @@ header {
 }
 
 .counter-box {
-  background: #eee;
+  background: var(--muscle);
 }
 
 button {
@@ -36,4 +37,10 @@ button {
 footer {
   position: fixed;
   bottom: 0;
+  background-color: var(--yellow);
+  width: 100%;
+  color: var(--black);
+  font-family: "Garet Heavy", sans-serif;
 }
+
+/* Utility Class */
