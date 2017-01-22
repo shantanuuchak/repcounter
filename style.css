@@ -24,10 +24,14 @@ header {
   margin: 50px;
   padding: 10px;
   font-family: "Garet Heavy", sans-serif;
+  text-transform: capitalize;
 }
 
 .counter-box {
   background: var(--muscle);
+  max-width: 450px;
+  margin: 10px auto;
+  padding: 20px;
 }
 
 button {
@@ -44,3 +48,6 @@ footer {
 }
 
 /* Utility Class */
+.highlight {
+  color: var(--yellow);
+}
