@@ -1,4 +1,4 @@
-/* Main Styling */
+/* Fonts */
 :root {
   --black: #000000;
   --white: #ffffff;
@@ -7,12 +7,14 @@
   --muscle: #ff5942;
 }
 
+/* Resets */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* General */
 body {
   font-family: "Garet Book", sans-serif;
   text-align: center;
@@ -20,6 +22,7 @@ body {
   color: var(--white);
 }
 
+/* Header */
 header {
   margin: 50px;
   padding: 10px;
@@ -27,17 +30,34 @@ header {
   text-transform: capitalize;
 }
 
+/* Counter Box */
 .counter-box {
   background: var(--muscle);
   max-width: 450px;
   margin: 10px auto;
   padding: 20px;
+  border-radius: 10px;
+}
+
+.counter-box .heading {
+  font-size: 20px;
+}
+
+.counter-box .count {
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
   font-family: inherit;
 }
 
+/* Footer */
 footer {
   position: fixed;
   bottom: 0;
