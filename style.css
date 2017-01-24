@@ -5,6 +5,8 @@
   --pink: #ff3278;
   --yellow: #ffdc18;
   --muscle: #ff5942;
+  --font-heavy: "Garet Heavy", sans-serif;
+  --font-book: "Garet Book", sans-serif;
 }
 
 /* Resets */
@@ -16,7 +18,7 @@
 
 /* General */
 body {
-  font-family: "Garet Book", sans-serif;
+  font-family: var(--font-book);
   text-align: center;
   background-color: var(--black);
   color: var(--white);
@@ -26,7 +28,7 @@ body {
 header {
   margin: 50px;
   padding: 10px;
-  font-family: "Garet Heavy", sans-serif;
+  font-family: var(--font-heavy);
   text-transform: capitalize;
 }
 
@@ -39,12 +41,13 @@ header {
   border-radius: 10px;
 }
 
-.counter-box .heading {
+.heading {
   font-size: 20px;
 }
 
-.counter-box .count {
-  font-size: 30px;
+.count {
+  font-size: 40px;
+  font-family: var(--font-heavy);
 }
 
 .buttons {
@@ -57,6 +60,12 @@ button {
   font-family: inherit;
 }
 
+@media screen and (max-width: 500px) {
+  .counter-box {
+    width: 330px;
+  }
+}
+
 /* Footer */
 footer {
   position: fixed;
@@ -64,7 +73,7 @@ footer {
   background-color: var(--yellow);
   width: 100%;
   color: var(--black);
-  font-family: "Garet Heavy", sans-serif;
+  font-family: var(--font-heavy);
 }
 
 /* Utility Class */
