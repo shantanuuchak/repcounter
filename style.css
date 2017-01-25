@@ -60,6 +60,10 @@ button {
   font-family: inherit;
 }
 
+.btn {
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 500px) {
   .counter-box {
     width: 330px;
