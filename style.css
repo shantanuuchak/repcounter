@@ -68,6 +68,18 @@ button {
 
 .btn {
   margin-bottom: 5px;
+  width: 100px;
+}
+
+.btn-add {
+  background-color: var(--yellow);
+  border: 2px solid var(--black);
+  padding: 10px 20px;
+  width: 130px;
+}
+
+.btn-reset {
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 500px) {
