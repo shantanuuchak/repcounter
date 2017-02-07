@@ -13,7 +13,10 @@ function addOne() {
   rep += 1;
 }
 
-function save() {}
+function save() {
+  repLog.push(rep);
+  rep = 0;
+}
 
 function reset() {
   rep = 0;
