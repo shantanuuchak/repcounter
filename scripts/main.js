@@ -8,6 +8,8 @@ const btnReset = document.querySelector(".btn-reset");
 let rep = 0;
 const repLog = [];
 
+// Paint 
+
 // Functions
 function addOne() {
   rep += 1;
