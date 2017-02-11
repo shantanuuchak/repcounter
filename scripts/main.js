@@ -8,7 +8,11 @@ const btnReset = document.querySelector(".btn-reset");
 let rep = 0;
 const repLog = [];
 
-// Paint 
+// Paint DOM
+function paint() {
+  countPara.textContent = rep;
+  repLog.textContent = repLog.toString();
+}
 
 // Functions
 function addOne() {
