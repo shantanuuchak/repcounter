@@ -27,3 +27,8 @@ function save() {
 function reset() {
   rep = 0;
 }
+
+// Add event listeners
+btnAdd.addEventListener("click", function () {});
+btnSave.addEventListener("click", function () {});
+btnReset.addEventListener("click", function () {});
