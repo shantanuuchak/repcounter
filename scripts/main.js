@@ -17,15 +17,19 @@ function paint() {
 // Functions
 function addOne() {
   rep += 1;
+  paint();
 }
 
 function save() {
   repLog.push(rep);
   rep = 0;
+  paint();
 }
 
 function reset() {
   rep = 0;
+  repLog.length = 0;
+  paint();
 }
 
 // Add event listeners
