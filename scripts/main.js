@@ -33,6 +33,6 @@ function reset() {
 }
 
 // Add event listeners
-btnAdd.addEventListener("click", function () {});
-btnSave.addEventListener("click", function () {});
-btnReset.addEventListener("click", function () {});
+btnAdd.addEventListener("click", addOne);
+btnSave.addEventListener("click", save);
+btnReset.addEventListener("click", reset);
