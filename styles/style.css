@@ -9,6 +9,7 @@
   --muscle: #ff5942;
   --font-heavy: "Garet Heavy", sans-serif;
   --font-book: "Garet Book", sans-serif;
+  --font-glymph: "Gym", sans-serif;
 }
 
 /* Resets */
@@ -32,6 +33,10 @@ header {
   padding: 10px;
   font-family: var(--font-heavy);
   text-transform: capitalize;
+}
+
+.fitness-logo {
+  font-family: var(--font-glymph);
 }
 
 /* Counter Box */
